@@ -1,5 +1,4 @@
-# Simple Portfolio Using React
-<img src="https://imgtr.ee/images/2023/04/21/0f6yc.png" alt="Alt text" title="Optional title">
+
 
 # Getting Started with Create React App 
 
