@@ -77,8 +77,8 @@ function App() {
 }
 function Accueil() {
   return (
-    <section className="section">
-      <Card title="Samih saad" >
+    <section className="section"  >
+      <Card title="Samih saad" style={{backgroundColor :"#635985",color : "white"}}>
         <p className="m-0">
         Je suis un étudiant en cycle d'ingénieur spécialisé dans la filière développement et réseau informatique. Je suis passionné par l'informatique depuis mon plus jeune âge, et j'ai choisi de poursuivre mes études dans ce domaine pour en faire mon métier. Je suis fier de dire que j'ai acquis une solide expérience dans de nombreux langages de programmation.
 

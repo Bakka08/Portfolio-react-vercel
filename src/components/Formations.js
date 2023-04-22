@@ -5,12 +5,12 @@ class Formations extends Component {
   render() {
     return (
       <section style={{ padding: '10vh 20vh 10vh 20vh', textAlign: 'left' }}>
-        <div className="shadow p-3 mb-3 bg-white rounded card" >
-          <div className="card-body">
-            <div className="card-title h5">
+        <div className="shadow p-3 mb-3 bg-white rounded card"  >
+          <div className="card-body" style={{backgroundColor :"#635985" ,color:"white"}}>
+            <div className="card-title h5" >
               Ingenieurie, Informatique (MIAGE)
             </div>
-            <div className="mb-2 text-muted card-subtitle h6">
+            <div className="mb-2  card-subtitle h6">
               Ecole Maroccaine des sciences de l'ingenieur M'arrakech
             </div>
             <p className="card-text">
@@ -19,11 +19,11 @@ class Formations extends Component {
           </div>
         </div>
         <div className="shadow p-3 mb-3 bg-white rounded card" >
-          <div className="card-body">
+          <div className="card-body" style={{backgroundColor :"#635985" ,color:"white"}}>
             <div className="card-title h5">
               Baccalaureat
             </div>
-            <div className="mb-2 text-muted card-subtitle h6">
+            <div className="mb-2 card-subtitle h6">
               Lycee al maghrib arabi Marrakech
             </div>
             <p className="card-text">

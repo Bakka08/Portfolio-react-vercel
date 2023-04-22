@@ -4,33 +4,34 @@ function ProjectDetail() {
 
   const projets = [
     {
-      title: "hearth-disease-prediction ",
-      description: "Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate.",
-      Link:"https://github.com/Saad-Elbahi/hearth-disease-prediction.git"
+      title: "Ecommerce WebSite",
+      description: "PHP - mysql",
+      Link:"https://github.com/Bakka08/Ecommerce-WebSite-PHP-Mysql"
 
     },
     {
-      title: "Emsi Salary Management",
-      description: "using C# with Framework Guna.",
-      Link:"https://github.com/Saad-Elbahi/Emsi_Management_System.git"
+      title: "Pokedex Android app",
+      description: "java using api",
+      Link:"https://github.com/Bakka08/Pokedex-android-app-java-using-api"
     },
     {
-      title: "GAINAIR Website",
-      description: "using php with Mysql.",
-      Link:"https://github.com/Saad-Elbahi/GAINAIR.git"
-    }
+      title: "Tic tac toe",
+      description: "react",
+      Link:"https://vercel-tic-tac-toe-react-app.vercel.app/"
+    },
+    
   ];
 
   return (
     <div style={{ paddingTop: '5vh' }}>
       <section className="row justify-content-center" style={{ padding: '10vh 10vh 10vh 10vh' }}>
         {projets.map((projet, index) => (
-          <div key={index} className="col-sm-6 col-md-4 mb-4">
-            <div className="card">
+          <div key={index} className="col-sm-6 col-md-4 mb-4" >
+            <div className="card" style={{backgroundColor :"#635985"}}>
               <div className="card-body">
-                <h5 className="card-title">{projet.title}</h5>
-                <p className="card-text">{projet.description}</p>
-                <a href={projet.Link} className="btn btn-primary">Learn more</a>
+                <h5 className="card-title" style={{textAlign: "center" , color:"white"}}>{projet.title}</h5>
+                <p className="card-text" style={{textAlign: "center" , color:"white"}}>{projet.description}</p>
+                <a href={projet.Link} className="btn btn-primary" style={{ width: "100%", backgroundColor: "white", textAlign: "center" , color:"#635985"}}>Preview</a>
               </div>
             </div>
           </div>
